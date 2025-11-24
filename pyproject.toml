@@ -1,0 +1,15 @@
+[project]
+name = "py-gui-tool"
+version = "0.1.0"
+description = "Tkinter / wxPython GUI tool"
+readme = "README.md"
+authors = [ { name = "Your Name" } ]
+requires-python = "==3.11.*"
+dependencies = [
+  "wxPython==4.2.1"
+  , "pywin32>=306; sys_platform == 'win32'"
+  , "comtypes>=1.1.14; sys_platform == 'win32'"
+]
+
+[tool.uv]
+# ここで uv の設定を追加可能 (例: ソースディレクトリ指定など)
